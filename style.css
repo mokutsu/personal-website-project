@@ -1,5 +1,8 @@
 img {
   width: 100%;
+  /* the rules below will force your object to be "zoomed in" to cover the available space, given it needs to fit 100% of its parent container's height.  you can play around with different values for object-fit to see what you'd like */
+  object-fit: cover;
+  height: 100%;
 }
 
 h1, h2 {
